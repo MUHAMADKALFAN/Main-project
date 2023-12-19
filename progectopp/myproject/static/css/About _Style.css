@@ -1,0 +1,45 @@
+#images120{
+    width: 100%;
+    height: 500px;
+}
+#About{
+    font-weight: 900;
+    color: white; 
+    padding-left: 100px;
+    padding-top: 180px;
+    font-size: 100px;
+}
+.images120{
+    background-image:url('../images/elliotm-v9X4-ACaPUs-unsplash\ \(1\).jpg');
+    width: 100%;
+    height: 500px;
+}
+#Our{
+    text-align: center;
+    font-weight: 700;
+}
+#change{
+    text-align: center;
+}
+#images125{
+    width: 100%;
+    height: 450px;
+}
+#Co{
+    text-align: center;
+}
+#images130{
+    width: 100%;
+    height: 400px;
+}
+#GO{
+    padding-left: 45%;
+}
+.con{
+    padding-left: 50px;
+    
+}
+#images135{
+    width: 100%;
+    height: 500px;
+}

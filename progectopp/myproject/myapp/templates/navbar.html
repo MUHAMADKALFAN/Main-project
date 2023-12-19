@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block css %}
+    {% endblock %}
+    <title>Document</title>
+</head>
+<body>
+    <div class="containerfluid">
+        <div class="row">
+          <div class="col-lg-6 col-sm-10">
+            <h2 class="Natural"><a id="Natural" href=""><i class="bi bi-microsoft"></i>
+              <b>Simply Natural</b></a></h2>
+          </div>
+          <div class="col-lg-6 col-sm-2 p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li>
+                      <li class="nav-item">
+                        <a class="navbar-brand" href="{% url 'home' %}">Home</a>
+                      </li>
+                    </li>
+                    <li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'logo' %}">Store</a>
+                      </li>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="{% url 'About_us' %}">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'Contact_Us' %}">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'login1' %}">My Account</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'cart' %}"><i class="bi bi-cart-dash"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="{% url 'user_logout' %}"><button type="button" class="btn btn-danger"><h6>logout</h6></button></a>
+                    </li>
+                </div>
+              </div>
+            </nav>
+        </div>
+      </div>
+      {% block content %}
+      {% endblock %}
+</body>
+</html>

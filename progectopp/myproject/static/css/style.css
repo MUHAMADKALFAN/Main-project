@@ -1,0 +1,124 @@
+.Natural{
+    margin-left: 10%;
+}
+#Natural{
+    text-decoration: none;
+    font-size: 30px
+}
+#carousel{
+    height: 450px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px; 
+}
+#bas{
+
+    /* position: absolute;
+    top: 20%;
+    left: 15%; */
+}
+/* .add{
+    position: relative; */
+}
+#Best{
+    font-size: 30px;
+    color: rgb(46, 27, 27);
+    font-weight: 900;
+    font-style: oblique;
+}
+#AmazVariety{
+    font-size: 70px;
+    color: rgb(22, 18, 18);
+    font-weight: 900;
+}
+#mrg{
+    margin-top: 5%;
+}
+#back{
+    margin-left: 80%;
+}
+.leo{
+    width: 100%;
+    height: 300px;
+}
+#ieo1{
+    font-size: 400;
+    text-align: center;
+}
+#ieo2{
+    font-size: 20px;
+    text-align: center;
+}
+#ieo3{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.Featured{
+    text-align: center;
+    font-weight: 500;
+}
+#Featured{
+    text-align: center;
+}
+#mail{
+    width: 100%;
+    height: 240px;
+}
+.Collection{
+    text-align: center;
+    font-weight: 900;
+}
+.Neque{
+    text-align: center;
+}
+.button{
+    padding-left: 45%; 
+}
+.lov{
+    width: 100%;
+    height: 300px;
+}
+#ica{
+    width: 60px;
+    height: 60px;
+    margin-left: 35%;
+}
+#man{
+    width: 70%;
+    height: 35px;
+}
+#cl1{
+    text-align: center;
+}
+#l1{
+    text-decoration: none;
+}
+.tex1{
+    text-align: left;
+}
+.tex2{
+    text-align: right;
+}
+
+#store{
+    width: 100%;
+    height: 500px;
+}
+.store{
+    position:relative ;
+}
+.store1{
+    position:absolute ;
+    top:30%;
+    left:15%; 
+}
+#store1{
+    font-weight: 900;
+    font-size: 100px;
+    font-style: oblique;
+    color: white;
+}
+.Featured{
+    font-size: 70px;
+    font-weight: 900;
+}
